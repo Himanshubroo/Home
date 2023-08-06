@@ -93,3 +93,50 @@ nav ul li a{
     padding-right: 20px;
     font-size: 14px;
 }
+/* Default styles for all devices */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles for devices with a maximum width of 768px (e.g., smartphones) */
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 50%;
+        /* Adjust the value as needed */
+    }
+}
+
+/* Styles for devices with a minimum width of 769px (e.g., tablets and larger) */
+@media screen and (min-width: 769px) {
+    img {
+        max-width: 75%;
+        /* Adjust the value as needed */
+    }
+}
+
+/* Default styles for all devices */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Styles for devices with a maximum width of 768px (e.g., smartphones) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Styles for devices with a minimum width of 769px (e.g., tablets and larger) */
+@media screen and (min-width: 769px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Additional media queries for different device sizes can be added here */
+
+/* Additional media queries for different device sizes can be added here */
+
+/* Additional media queries for different device sizes can be added here */
